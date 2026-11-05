@@ -1,0 +1,11 @@
+﻿bin/
+build/
+target/
+WebContent/WEB-INF/classes/
+*.class
+*.war
+*.ear
+.vscode/
+.settings/
+.classpath
+.project
