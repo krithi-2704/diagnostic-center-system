@@ -7,11 +7,11 @@ COPY . .
 RUN mkdir -p WebContent/WEB-INF/classes && \
     javac -d WebContent/WEB-INF/classes \
     -cp "WebContent/WEB-INF/lib/*" \
-    
+    $(find src -name "*.java")
 
 # Move the fully compiled app to Tomcat's ROOT directory
 RUN rm -rf /usr/local/tomcat/webapps/ROOT/* && \
     cp -r WebContent/* /usr/local/tomcat/webapps/ROOT/
 
 # Bind to Vercel's dynamic port and start Tomcat
-CMD sed -i "s/port=\"8080\"/port=\"\"/g" /usr/local/tomcat/conf/server.xml && catalina.sh run
+CMD sed -i "s/port=\"8080\"/port=\"${PORT:-8080}\"/g" /usr/local/tomcat/conf/server.xml && catalina.sh run
