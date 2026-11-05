@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MediCare - Diagnostic Center Appointment & Test Scheduling System</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div>📍 Serving Bangalore with 4 NABL-Accredited Diagnostic Centers: Shivajinagar, Whitefield, MG Road & Kamanahalli</div>
+    <div class="top-bar-links">
+      <span>Helpline: <strong>080-41123300</strong></span>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="index.html" class="nav-brand">
+      <div class="brand-icon">+</div>
+      <div>
+        <div class="brand-title">Medi<span>Care</span></div>
+        <div class="brand-subtitle">Diagnostic Center System</div>
+      </div>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#branches-section">Centers</a></li>
+      <li><a href="#tests-section">Diagnostic Tests</a></li>
+      <li><a href="#packages-section">Health Packages</a></li>
+      <li><a href="#faq-section">FAQ</a></li>
+      <li><a href="login" class="btn btn-outline btn-sm">Sign In</a></li>
+      <li><a href="register" class="btn btn-primary btn-sm">Register</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="hero-grid">
+      <div>
+        <span class="hero-tag">🔬 ACCREDITED DIAGNOSTIC EXCELLENCE</span>
+        <h1>Precision Diagnostics & Seamless Test Scheduling</h1>
+        <p>Book laboratory visits or doorstep sample collections across Bangalore with automated biochemistry, verified pathologist impressions, and same-day digital reporting.</p>
+        <div class="hero-actions">
+          <a href="#tests-section" class="btn btn-primary">Browse Tests & Packages</a>
+          <a href="register" class="btn btn-outline">Create Patient Profile</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-num">4</div>
+            <div class="hero-stat-label">Bangalore Centers</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">100+</div>
+            <div class="hero-stat-label">Diagnostic Parameters</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">4-6 Hrs</div>
+            <div class="hero-stat-label">Average Turnaround</div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=800&q=80" alt="MediCare Modern Clinical Laboratory" class="hero-img">
+        <div class="hero-floating-card">
+          <div style="background-color: var(--primary-light); color: var(--primary-dark); font-size: 1.5rem; padding: 0.5rem 0.75rem; border-radius: var(--radius-sm); font-weight: 800;">✓</div>
+          <div>
+            <div style="font-weight: 800; font-size: 0.95rem; color: var(--slate-900);">NABL Quality Standards</div>
+            <div style="font-size: 0.8rem; color: var(--slate-500);">Automated analyzers & barcoded samples</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content Container -->
+  <main class="container">
+
+    <!-- Bangalore Branches Section -->
+    <section id="branches-section" style="margin-bottom: 5rem;">
+      <div class="section-header">
+        <span class="section-badge">Bangalore Network</span>
+        <h2>Our Diagnostic Centers</h2>
+        <p>State-of-the-art diagnostic facilities located across central, eastern, and northern Bangalore.</p>
+      </div>
+      <div id="branchesGrid" class="grid-4"></div>
+    </section>
+
+    <!-- Tests Catalog Section -->
+    <section id="tests-section" style="margin-bottom: 5rem;">
+      <div class="section-header">
+        <span class="section-badge">Laboratory Tests</span>
+        <h2>Popular Diagnostic Tests</h2>
+        <p>Individual pathology, biochemistry, and radiology screenings with transparent pricing and fast turnaround times.</p>
+      </div>
+      <div id="testsGrid" class="grid-4"></div>
+    </section>
+
+    <!-- Packages Catalog Section -->
+    <section id="packages-section" style="margin-bottom: 5rem;">
+      <div class="section-header">
+        <span class="section-badge">Preventive Health</span>
+        <h2>Comprehensive Health Packages</h2>
+        <p>Holistic health panels covering vital organs for early risk detection and proactive wellness.</p>
+      </div>
+      <div id="packagesGrid" class="grid-3"></div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq-section" style="margin-bottom: 3rem;">
+      <div class="section-header">
+        <span class="section-badge">Got Questions?</span>
+        <h2>Frequently Asked Questions</h2>
+        <p>Everything you need to know about preparing for your test, scheduling appointments, and accessing reports.</p>
+      </div>
+      <div class="accordion">
+        <div class="accordion-item active">
+          <button class="accordion-header">
+            <span>How do I schedule an appointment with MediCare?</span>
+            <span>▼</span>
+          </button>
+          <div class="accordion-body">
+            Simply register or sign in to your Patient Portal. Browse tests, add them to your cart, select your preferred Bangalore branch, pick an available slot, and confirm your booking.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>How does Home Sample Collection work in Bangalore?</span>
+            <span>▼</span>
+          </button>
+          <div class="accordion-body">
+            Select "Home Sample Collection" during booking. A certified phlebotomist visits your doorstep with barcoded, temperature-controlled sample vials during your chosen time slot.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            <span>When will my diagnostic test report be ready?</span>
+            <span>▼</span>
+          </button>
+          <div class="accordion-body">
+            Routine blood reports are uploaded to your Patient Dashboard within 4-8 hours after sample collection.
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Test Details Modal -->
+  <div class="modal-overlay" id="testDetailsModal">
+    <div class="modal-card">
+      <button class="modal-close-btn" onclick="closeTestDetailsModal()">✕</button>
+      <div style="padding: 2rem;" id="testDetailsBody"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-content">
+      <div>
+        <div class="footer-brand">Medi<span>Care</span></div>
+        <p style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 1rem;">Bangalore's trusted diagnostic network offering pathology, radiology, and doorstep sample collection.</p>
+        <p style="font-size: 0.85rem;">Central Helpline: <strong>080-41123300</strong></p>
+      </div>
+      <div>
+        <h4 style="color: #ffffff; font-size: 0.95rem; margin-bottom: 1rem;">Bangalore Centers</h4>
+        <p style="font-size: 0.88rem; margin-bottom: 0.4rem;">• Shivajinagar</p>
+        <p style="font-size: 0.88rem; margin-bottom: 0.4rem;">• Whitefield</p>
+        <p style="font-size: 0.88rem; margin-bottom: 0.4rem;">• MG Road</p>
+        <p style="font-size: 0.88rem;">• Kamanahalli</p>
+      </div>
+      <div>
+        <h4 style="color: #ffffff; font-size: 0.95rem; margin-bottom: 1rem;">Quick Access</h4>
+        <p style="font-size: 0.88rem; margin-bottom: 0.4rem;"><a href="login" style="color: var(--slate-400); text-decoration: none;">Patient Sign In</a></p>
+        <p style="font-size: 0.88rem; margin-bottom: 0.4rem;"><a href="register" style="color: var(--slate-400); text-decoration: none;">Patient Registration</a></p>
+        <p style="font-size: 0.88rem;"><a href="login" style="color: var(--slate-400); text-decoration: none;">Branch Admin Login</a></p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 MediCare Diagnostic Center System. All rights reserved.
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,141 @@
+{
+  "tests": [
+    {
+      "testId": 1,
+      "code": "CBC01",
+      "name": "Complete Blood Count (CBC)",
+      "category": "Pathology / Hematology",
+      "price": 350.00,
+      "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=600&q=80",
+      "description": "Evaluates overall health and detects disorders including anemia, infection, inflammation, and leukemia.",
+      "parameters": "24 Parameters (RBC, WBC, Hemoglobin, Platelet Count, Hematocrit, MCV, MCH, MCHC, Neutrophils, Lymphocytes)",
+      "instructions": "No fasting required. Stay well hydrated with water before blood collection.",
+      "turnaround": "4 - 6 Hours"
+    },
+    {
+      "testId": 2,
+      "code": "LIP02",
+      "name": "Lipid Profile Screen (Cholesterol Panel)",
+      "category": "Biochemistry",
+      "price": 650.00,
+      "image": "https://images.unsplash.com/photo-1582719202047-76d3432ee323?auto=format&fit=crop&w=600&q=80",
+      "description": "Comprehensive cardiac risk screen measuring good (HDL), bad (LDL/VLDL) cholesterol, and triglycerides.",
+      "parameters": "8 Parameters (Total Cholesterol, HDL, LDL, VLDL, Triglycerides, Total/HDL Ratio, LDL/HDL Ratio)",
+      "instructions": "10-12 hours of strict overnight fasting required. Water intake is permitted.",
+      "turnaround": "6 - 8 Hours"
+    },
+    {
+      "testId": 3,
+      "code": "LFT03",
+      "name": "Liver Function Test (LFT)",
+      "category": "Biochemistry",
+      "price": 550.00,
+      "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=600&q=80",
+      "description": "Assesses liver enzymes, bilirubin processing, protein synthesis, and general hepatic health.",
+      "parameters": "11 Parameters (Bilirubin Total/Direct/Indirect, SGOT/AST, SGPT/ALT, Alkaline Phosphatase, Total Protein, Albumin, Globulin)",
+      "instructions": "Overnight fasting of 8-10 hours recommended for best baseline accuracy.",
+      "turnaround": "6 Hours"
+    },
+    {
+      "testId": 4,
+      "code": "KFT04",
+      "name": "Kidney Function Test (KFT / RFT)",
+      "category": "Renal Biochemistry",
+      "price": 600.00,
+      "image": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=600&q=80",
+      "description": "Monitors glomerular filtration, waste clearance, electrolyte balance, and renal performance.",
+      "parameters": "7 Parameters (Serum Creatinine, Blood Urea Nitrogen, Uric Acid, Calcium, Phosphorus, Sodium, Potassium)",
+      "instructions": "No strict fasting required. Avoid strenuous exercise 24 hours prior.",
+      "turnaround": "6 Hours"
+    },
+    {
+      "testId": 5,
+      "code": "TSH05",
+      "name": "Thyroid Profile Total (T3, T4, TSH)",
+      "category": "Endocrinology",
+      "price": 500.00,
+      "image": "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=600&q=80",
+      "description": "Evaluates thyroid gland activity, diagnosing hypo- and hyper-thyroidism and metabolic imbalances.",
+      "parameters": "3 Parameters (Total Triiodothyronine T3, Total Thyroxine T4, Ultra-sensitive TSH)",
+      "instructions": "Early morning blood sample preferred prior to taking morning thyroid medications.",
+      "turnaround": "8 - 12 Hours"
+    },
+    {
+      "testId": 6,
+      "code": "HBA06",
+      "name": "HbA1c (Glycated Hemoglobin Panel)",
+      "category": "Diabetology",
+      "price": 450.00,
+      "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&w=600&q=80",
+      "description": "Gold standard biomarker measuring average blood sugar control over the preceding 3 months.",
+      "parameters": "2 Parameters (HbA1c Percentage, Estimated Average Glucose eAG)",
+      "instructions": "No fasting required. Can be taken anytime of day.",
+      "turnaround": "4 Hours"
+    },
+    {
+      "testId": 7,
+      "code": "XRY07",
+      "name": "Digital Chest X-Ray (PA / Lateral View)",
+      "category": "Radiology & Imaging",
+      "price": 400.00,
+      "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=600&q=80",
+      "description": "High-resolution digital radiography assessing lung fields, cardiac silhouette, ribs, and mediastinum.",
+      "parameters": "Digital Radiograph + Certified Radiologist Impression Report",
+      "instructions": "Wear loose clothing. Remove all metallic jewelry, piercings, and underwire garments.",
+      "turnaround": "2 Hours"
+    },
+    {
+      "testId": 8,
+      "code": "ECG08",
+      "name": "12-Lead Resting Electrocardiogram (ECG)",
+      "category": "Cardiology Screening",
+      "price": 350.00,
+      "image": "https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=600&q=80",
+      "description": "Records electrical cardiac activity to screen for arrhythmias, conduction blocks, and myocardial strain.",
+      "parameters": "12-Lead Rhythm Trace + Cardiologist Interpretation",
+      "instructions": "Avoid heavy physical exertion, caffeine, and smoking 30 minutes before recording.",
+      "turnaround": "1 Hour"
+    }
+  ],
+  "packages": [
+    {
+      "packageId": 1,
+      "code": "WELL01",
+      "name": "MediCare Comprehensive Wellness Master Panel",
+      "category": "Full Body Preventive Health",
+      "price": 1999.00,
+      "originalPrice": 2999.00,
+      "discount": "33% OFF",
+      "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=600&q=80",
+      "description": "Our most popular preventive health assessment covering key organs: Heart, Liver, Kidneys, Blood, Diabetes, and Thyroid.",
+      "includes": "Includes CBC (24 params), Lipid Profile (8 params), LFT (11 params), KFT (7 params), HbA1c, TSH, and 12-Lead ECG with Doctor Consultation.",
+      "instructions": "10-12 hours overnight fasting required. Early morning arrival recommended."
+    },
+    {
+      "packageId": 2,
+      "code": "DIAB02",
+      "name": "Advanced Diabetic Care & Organ Protection Panel",
+      "category": "Diabetic Health",
+      "price": 1199.00,
+      "originalPrice": 1699.00,
+      "discount": "29% OFF",
+      "image": "https://images.unsplash.com/photo-1584515933487-779824d29309?auto=format&fit=crop&w=600&q=80",
+      "description": "Targeted monitoring designed to detect early vascular, microalbuminuria, and lipid complications of diabetes.",
+      "includes": "Fasting Blood Sugar (FBS), Postprandial Sugar (PPBS), HbA1c, Serum Creatinine, Microalbumin, and Lipid Profile.",
+      "instructions": "Fasting sample required first, followed by meal and second sample exactly 2 hours later."
+    },
+    {
+      "packageId": 3,
+      "code": "CARD03",
+      "name": "Executive Cardiac Wellness & Vascular Screen",
+      "category": "Cardiovascular Health",
+      "price": 1499.00,
+      "originalPrice": 1999.00,
+      "discount": "25% OFF",
+      "image": "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&w=600&q=80",
+      "description": "Specialized heart checkup combining biochemical risk factors, electrophysiology, and inflammation markers.",
+      "includes": "12-Lead Resting ECG, High Sensitivity CRP (hs-CRP), Complete Lipid Profile, Blood Pressure Profiling, and CBC.",
+      "instructions": "10-12 hours fasting required. Avoid morning vigorous exercise."
+    }
+  ]
+}

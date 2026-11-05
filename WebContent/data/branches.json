@@ -1,0 +1,46 @@
+[
+  {
+    "branchId": 1,
+    "name": "MediCare - Shivajinagar",
+    "area": "Central Bangalore",
+    "address": "No. 45, Commercial Street, Near Tasker Town, Shivajinagar, Bangalore 560001",
+    "phone": "080-25581100",
+    "email": "shivajinagar@medicare.in",
+    "hours": "Mon - Sat: 7:00 AM - 8:00 PM | Sun: 7:00 AM - 1:00 PM",
+    "features": ["NABL Accredited Lab", "Digital X-Ray Suite", "12-Lead ECG", "Dedicated Home Sample Phlebotomy Desk"],
+    "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "branchId": 2,
+    "name": "MediCare - Whitefield",
+    "area": "East Bangalore (ITPB Tech Corridor)",
+    "address": "ITPB Main Road, Near Hope Farm Junction, Whitefield, Bangalore 560066",
+    "phone": "080-66772200",
+    "email": "whitefield@medicare.in",
+    "hours": "Mon - Sat: 7:00 AM - 8:30 PM | Sun: 7:00 AM - 2:00 PM",
+    "features": ["Automated Biochemistry Hub", "Executive Lounge", "Express 4-Hour Reporting", "Ample Parking"],
+    "image": "https://images.unsplash.com/photo-1586773860418-d37222d8fce3?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "branchId": 3,
+    "name": "MediCare - MG Road",
+    "area": "Central Business District",
+    "address": "Ground Floor, Prestige Towers, Residency Road Corner, MG Road, Bangalore 560001",
+    "phone": "080-41123300",
+    "email": "mgroad@medicare.in",
+    "hours": "Mon - Sat: 7:30 AM - 8:00 PM | Sun: 8:00 AM - 1:00 PM",
+    "features": ["Advanced Endocrinology Panel", "Cardiology Screening", "Corporate Health Checkups", "Metro Accessible"],
+    "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "branchId": 4,
+    "name": "MediCare - Kamanahalli",
+    "area": "North Bangalore",
+    "address": "80 Feet Road, 3rd Block, HRBR Layout, Kamanahalli, Bangalore 560084",
+    "phone": "080-28494400",
+    "email": "kamanahalli@medicare.in",
+    "hours": "Mon - Sat: 7:00 AM - 7:30 PM | Sun: 7:30 AM - 1:00 PM",
+    "features": ["Preventive Wellness Center", "Rapid Blood Profiling", "Pediatric Sample Collection", "Senior Citizen Priority"],
+    "image": "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=600&q=80"
+  }
+]
